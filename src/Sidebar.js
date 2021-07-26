@@ -16,16 +16,18 @@ import './Sidebar.css';
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SidebarRow selected Icon={HomeIcon} title="Home" />
-            <SidebarRow Icon={WhatshotIcon} title="Trending" />
-            <SidebarRow Icon={SubscriptionsIcon} title="Subscription" />
-            <hr />
-            <SidebarRow Icon={VideoLibraryIcon} title="Library" />
-            <SidebarRow Icon={HistoryIcon} title="History" />
-            <SidebarRow Icon={OndemandVideoIcon} title="Your videos" />
-            <SidebarRow Icon={WatchLaterIcon} title="Watch later" />
-            <SidebarRow Icon={ThumbUpAltOutlinedIcon} title="Liked videos" />
-            <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
+            <div className="sidebarFixed">
+                <SidebarRow selected Icon={HomeIcon} title="Home" />
+                <SidebarRow Icon={WhatshotIcon} title="Trending" />
+                <SidebarRow Icon={SubscriptionsIcon} title="Subscription" />
+                <hr />
+                <SidebarRow Icon={VideoLibraryIcon} title="Library" />
+                <SidebarRow Icon={HistoryIcon} title="History" />
+                <SidebarRow Icon={OndemandVideoIcon} title="Your videos" />
+                <SidebarRow Icon={WatchLaterIcon} title="Watch later" />
+                <SidebarRow Icon={ThumbUpAltOutlinedIcon} title="Liked videos" />
+                <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
+            </div>
         </div>
     )
 }

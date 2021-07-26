@@ -1,6 +1,11 @@
 .sidebar {
-    flex: 0.2; /* 20% */
+    flex: 0.13; /* 20% */
 }
+
+/* .sidebarFixed {
+    position: fixed;
+    width: 12%;
+} */
 
 .sidebar > hr {
     height: 1px;
