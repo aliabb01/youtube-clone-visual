@@ -1,11 +1,16 @@
 .videoCard {
     margin-bottom: 40px;
-    width: 270px;
+    margin-right: 5px;
+    width: 360px;
+}
+
+.videoCard:hover {
+    cursor: pointer;
 }
 
 .videoCard__thumbnail {
-    height: 140px;
-    width:250px;
+    height: 202px;
+    width: 350px;
 }
 
 .videoCard__info {
@@ -29,6 +34,6 @@
 }
 
 .videoCard__avatar {
-    height: 30px !important;
-    width: 30px !important;
+    height: 36px !important;
+    width: 36px !important;
 }
